@@ -1,0 +1,141 @@
+body {
+  background-color: #121212; 
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0; 
+}
+
+.container {
+  max-width: 900px; 
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+
+}
+
+nav {
+    background-color: #121212; 
+    padding: 20px 0;
+    display: flex;             
+    justify-content: flex-end; /* Push items to the end */
+    align-items: center;     
+  }
+
+  nav ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-left: 30px; 
+  }
+
+  nav a {
+    text-decoration: none; 
+    color: white;
+    font-weight: bold; 
+  }
+
+  nav a.active { 
+    border-bottom: 2px solid #9370DB; 
+    padding-bottom: 5px;
+  }  
+
+#main-picture {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto; /
+}
+
+/* Footer */
+.contact {
+  background-color: darkorange;
+  color: black;
+  display: flex;
+  padding: 30px;
+}
+.contactcolumn {
+  width: 33%;
+}
+.policieslink {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding-top: 10px;
+}
+.followicon {
+  width: 50px;
+  display: inline-block;
+  padding-right: 1em;
+  opacity: 0.6;
+}
+.followicon:hover {
+  opacity: 1;
+}
+
+/* CARD */
+.sectioncard {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 350px;
+  height: 380px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px gray;
+  transition: ease-in-out 200ms;
+  overflow: hidden;
+  margin: 12px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.cardlink {
+  color: crimson;
+  font-weight: 900;
+  text-decoration: none;
+  padding: 12px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+  transition: ease-in-out 200ms;
+  display: none;
+}
+
+.cardinfo {
+  padding: 12px;
+}
+
+.cardlink:hover {
+  background-color: aliceblue;
+  color: darkblue;
+}
+
+.card:hover .cardlink {
+  display: inline;
+}
+
+.portraitcard {
+  position: relative;
+}
+
+.portraitinfo {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  right: 5%;
+  text-align: center;
+}
