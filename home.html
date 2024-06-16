@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="skylogo.png" alt="NYC" width="30" height="30" />
+          <span class="ms-2">NYC Attractions</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#attract">Attractions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signups.html">Signup</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid mt-5">
+      <section id="home" class="mt-5">
+        <div class="text-center">
+          <h1 class="mt-5">Welcome to NYC Attractions</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident
+            non aut a, suscipit repudiandae eaque cumque ipsa optio molestias
+            maxime deserunt culpa perspiciatis possimus numquam facilis dolores
+            nisi ratione modi?
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <section id="attract" class="mt-5">
+      <div class="container">
+        <div class="text-center">
+          <h1>Attractions</h1>
+        </div>
+        <div class="row justify-content-around mt-4">
+          <!-- Card 1: Central Park -->
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card">
+              <img
+                src="centralpark.jpeg"
+                alt="Central Park"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Central Park</h5>
+                <p class="card-text">
+                  A sprawling urban oasis, Central Park offers everything from
+                  serene meadows to bustling plazas. Explore its iconic
+                  landmarks, enjoy a picnic, or take a bike ride.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Times Square -->
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card">
+              <img
+                src="timessquare.jpg"
+                alt="Times Square"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Times Square</h5>
+                <p class="card-text">
+                  Experience the dazzling lights and vibrant energy of Times
+                  Square, the "Crossroads of the World." Catch a Broadway show
+                  or simply soak up the atmosphere.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Statue of Liberty -->
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card">
+              <img
+                src="lib01.jpeg"
+                alt="Statue of Liberty"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Statue of Liberty</h5>
+                <p class="card-text">
+                  A symbol of freedom and hope to people arount the world, the
+                  Statue of Liberty is a must-see. Take a ferry to Liberty
+                  Island and marvel at this iconic landmark.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TABLES -->
+    <section id="tableSection" class="mt-5">
+      <div class="container">
+        <h2 class="text-center">Must-See NYC Attractions</h2>
+
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Attraction</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Art & Culture</td>
+              <td>
+                <a href="https://www.moma.org/" target="_blank"
+                  >Museum of Modern Art (MoMA)</a
+                >
+              </td>
+              <td>World-renowned collection of modern and contemporary art.</td>
+            </tr>
+            <tr>
+              <td>History & Architecture</td>
+              <td>
+                <a href="https://www.grandcentralterminal.com/" target="_blank"
+                  >Grand Central Terminal</a
+                >
+              </td>
+              <td>A Beaux-Arts masterpiece and bustling transportation hub.</td>
+            </tr>
+            <tr>
+              <td>Parks & Recreation</td>
+              <td>
+                <a href="https://www.thehighline.org/" target="_blank"
+                  >The High Line</a
+                >
+              </td>
+              <td>
+                An elevated park on former railroad tracks, with unique city
+                views.
+              </td>
+            </tr>
+            <tr>
+              <td>Food & Drink</td>
+              <td>
+                <a href="https://www.chelseamarket.com/" target="_blank"
+                  >Chelsea Market</a
+                >
+              </td>
+              <td>A bustling food hall with diverse culinary offerings.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="footer mt-5">
+      <div class="container">
+        <div class="row">
+          <!-- Contact Column -->
+          <div class="col-md-4">
+            <h3>Contact Us</h3>
+            <p>
+              123 Main Street<br />
+              New York, NY 10001
+            </p>
+            <p>
+              Phone: (555) 123-4567<br />
+              Email: info@example.com
+            </p>
+          </div>
+
+          <!-- Social Media Column -->
+          <div class="col-md-4">
+            <h3>Follow Us</h3>
+            <ul class="list-unstyled d-flex justify-content-center">
+              <li class="ms-3">
+                <a href="#" target="_blank"
+                  ><img
+                    src="tiktok_icon.svg"
+                    alt="TikTok"
+                    width="24"
+                    height="24"
+                /></a>
+              </li>
+              <li class="ms-3">
+                <a href="#" target="_blank"
+                  ><img src="fb_icon.svg" alt="Facebook" width="24" height="24"
+                /></a>
+              </li>
+              <li class="ms-3">
+                <a href="#" target="_blank"
+                  ><img
+                    src="instagram-icon.png"
+                    alt="Instagram"
+                    width="24"
+                    height="24"
+                /></a>
+              </li>
+              <li class="ms-3">
+                <a href="#" target="_blank"
+                  ><img
+                    src="youtube_icon.svg"
+                    alt="YouTube"
+                    width="24"
+                    height="24"
+                /></a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Copyright Column -->
+          <div class="col-md-4">
+            <p class="text-center">© 2023 Your Company. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
